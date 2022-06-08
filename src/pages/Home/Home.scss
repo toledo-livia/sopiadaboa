@@ -1,0 +1,147 @@
+.content-logo {
+  margin-top: 70px;
+}
+
+.ha {
+  margin-top: -46, 89px;
+  margin-left: -120px;
+}
+
+.ha-2 {
+  margin-top: -40px;
+  margin-left: 50px;
+}
+
+.ha-3 {
+  margin-top: -70px;
+  margin-left: 140px;
+}
+
+.ha-4 {
+  margin-top: -20px;
+  margin-left: -120px;
+}
+
+.content-home {
+  margin-top: 54.88px;
+}
+
+.span-title {
+  color: #cd1d2f;
+}
+
+.secondary-text {
+  color: #0a325e;
+  font-weight: 800;
+}
+
+.img-mic {
+  margin-top: 150px;
+}
+
+@media only screen and (min-width: 641px) {
+  .home {
+    position: absolute;
+    margin-top: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    background: #f5f0e6;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+  }
+
+  .text-home {
+    position: absolute;
+    width: 334px;
+    height: 132px;
+    left: 58px;
+    top: 292px;
+    text-size-adjust: auto;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #565656;
+  }
+
+  .mic {
+    display: block;
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -120px;
+    width: 125px;
+    height: 346px;
+    background: url(../../common/assets/img/mic.png);
+    background-size: 135%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-10px 4px 40px rgba(0, 0, 0, 0.25));
+    -webkit-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  .button-init {
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    left: 85px;
+    top: 509px;
+    background: rgba(200, 5, 27, 0.9);
+    border-radius: 10px;
+    color: #f5f0e6;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .home {
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-top: 15%;
+    width: 90%;
+    height: 600px;
+    text-align: center;
+    background-color: #f5f0e6;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+  }
+
+  .text-home {
+    margin-left: 35px;
+    margin-right: 35px;
+    left: 58px;
+    top: 292px;
+    text-size-adjust: auto;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #565656;
+  }
+  
+  .mic {
+    display: none;
+  }
+
+  .button-init {
+    position: absolute;
+    margin-left: -140px;
+    width: 280px;
+    height: 50px;
+    background-color: rgba(200, 5, 27, 0.9);
+    color: #f5f0e6;
+    border-radius: 10px;
+    top: 509px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

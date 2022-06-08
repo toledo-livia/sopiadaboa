@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../../common/assets/font/Avenir_Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Avenir";
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: calc(38px - 1vmin);
+  text-size-adjust: auto;
+  color: #565656;
+}
+
+@media only screen and (min-width: 641px) {
+  .background {
+    margin: 0px;
+    height: 100vh;
+    background: linear-gradient(rgba(200, 5, 27, 0.9), rgba(200, 5, 27, 0.9)),
+      url("../../common/assets/img/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .background {
+    min-height: 110vh;
+    margin: 0px;
+    background: linear-gradient(rgba(200, 5, 27, 0.9), rgba(200, 5, 27, 0.9)),
+      url("../../common/assets/img/background-mobile.png");
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
